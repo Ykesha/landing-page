@@ -15,6 +15,18 @@
     height: auto;
 }
 
+.img2 {
+    width: 50%;
+    height: auto;
+
+}
+
+figcaption {
+    font-size: 10px;
+}
+    
+
+
 .logo {
 
       margin-right: auto;
