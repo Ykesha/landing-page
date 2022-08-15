@@ -1,0 +1,6 @@
+.head {
+    border: solid 10px;
+
+    display: flex;
+    flex-direction: row;
+}
