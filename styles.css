@@ -3,11 +3,16 @@
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
-    background-color: rgb(91, 91, 255);
+    background-color: rgb(255, 252, 91);
+    
     }
 
 .topimg {
     border: solid 10px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/house.jpg);
+
           }
 
 .img1 {
@@ -18,13 +23,15 @@
 .img2 {
     width: 50%;
     height: auto;
+    border: solid blue 5px;
+    border-radius: 8px;
 
 }
 
 figcaption {
     font-size: 10px;
     margin-right: 100px;
-    text-align: center;
+    
     
 }
     
@@ -42,6 +49,7 @@ figcaption {
     padding-top: 50px;
     padding-bottom: 80px;
     background-color: rgb(91, 91, 255);
+    justify-content: center;
            
 }
 
@@ -51,6 +59,7 @@ figcaption {
     border: solid green 5px;
     margin-left: 30%;
     margin-right: 25%;
+    
 }
 
 .info {
