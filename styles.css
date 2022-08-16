@@ -1,23 +1,34 @@
 .head {
-    border: solid 5px;
-    display: flex;
-    justify-content: flex-end;
-    margin-left: auto;
-    background-color: rgb(255, 252, 91);
-    
-    }
+    border: solid 2px;
+    display: flex;   
+    background-color: #7da7e0;
+    justify-content: space-between;
+            
+        }
 
-.topimg {
-    border: solid 10px;
-    display: flex;
-    justify-content: center;
-    background-image: url(./images/house.jpg);
+.headlinks {
+    display: flex;   
+      
+    padding-right: 20%;         
+}
 
-          }
+
+
+.link1, .link2, .link3 {        
+    border: solid purple 2px;    
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+
+
 
 .img1 {
-    width: 50%;
-    height: auto;
+    width: 400px;
+    height: 200px;
+    border: solid 2px;
 }
 
 .img2 {
@@ -31,39 +42,55 @@
 figcaption {
     font-size: 10px;
     margin-right: 100px;
+    border: solid 2px;
     
     
 }
     
 
 
-.logo {
-
-      margin-right: auto;
-      margin-left: 24%;
+.logo {      
+      
+      font-size: 24px;
+      color: #e5e7eb;
+      padding-left: 20%;
+      
+      
 }
 
 .top {
-    border: solid 5px;
+    border: solid 2px;
     display: flex;
-    padding-top: 50px;
-    padding-bottom: 80px;
-    background-color: rgb(91, 91, 255);
-    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #7da7e0;
+    justify-content: center;    
            
 }
 
 
 
 .toptxt {
-    border: solid green 5px;
-    margin-left: 30%;
-    margin-right: 25%;
     
+    
+    padding-right: 25%;
+    font-size: 28px;
+    font-weight: bolder;
+    color: #f9faf8
 }
+    
+.topp {
+    font-size: 18px;
+    color: #e5e7eb;
+    
+    }
+    
+
 
 .info {
-    border: solid yellow 5px;
+    border: solid yellow 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,4 +104,18 @@ figcaption {
     justify-content: space-around;  
     margin-left: 20%;
     margin-right: 20%;
+    }
+
+.quote {
+    background-color: #e5e7eb;
+        
+    padding: 5% 30%;
+    border: solid green 2px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    }
+
+    .quotename {
+        text-align: right;
     }
