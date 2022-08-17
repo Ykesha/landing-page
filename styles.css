@@ -1,7 +1,7 @@
 .head {
-    border: solid 2px;
+    
     display: flex;   
-    background-color: #7da7e0;
+    background-color: #1f2937;
     justify-content: space-between;            
         }
 
@@ -9,10 +9,22 @@
     display: flex;         
     padding-right: 15%; 
     
-    border: solid 2px;  
+    
 
     
 }
+
+.topbut {
+    background-color: #3882f6;  
+    color: #f9f9f8;   
+    border: none;
+}
+
+.topbut:focus {
+    border: none;
+    outline: none;
+}
+
 
 
 
@@ -36,14 +48,14 @@
 .img2 {
     width: 150px;
     height: auto;
-    border: solid blue 5px;
+    
     border-radius: 8px;
 
 }
 
 figcaption {
     font-size: 18px;    
-    border: solid 2px;
+    
     
     
 }
@@ -55,20 +67,20 @@ figcaption {
       font-size: 24px;
       color: #e5e7eb;
       padding-left: 20%;
-      border: solid red 2px;
+    
       font-weight: bolder;
       
       
 }
 
 .top {
-    border: solid 2px;
+    
     display: flex;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 20%;
     padding-right: 20%;
-    background-color: #7da7e0;
+    background-color: #1f2937;
     justify-content: center;    
            
 }
@@ -93,7 +105,7 @@ figcaption {
 
 
 .info {
-    border: solid yellow 2px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,7 +116,7 @@ figcaption {
 .infoimgs {
     display: flex;
     flex-direction: row;
-    border: solid pink 5px;
+    
     justify-content: space-around;  
     padding-left: 20%;
     padding-right: 20%;
@@ -116,7 +128,7 @@ figcaption {
     background-color: #e5e7eb;
         
     padding: 5% 30%;
-    border: solid green 2px;
+    
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
@@ -131,17 +143,45 @@ figcaption {
     .bottom {
         display: flex;
         margin: 5% 20%;
-        border: solid yellow 2px;
-        background-color: #7da7e0;
+        justify-content: space-around;
+        background-color: #3882f6;
+        border-radius: 5px;
+        
+        
+        
     }
 
-.botxt {
+    .botxt {
+        display: flex;
+        flex-direction: column;
+        margin: 2%
+        
+        
+        
 
-border: solid 2px;
-}
+        }
 
-.botton {
+    .botton {
 
-    border: solid 2px;
+        border: solid 2px;
+        height: 50%;
+        margin-top: 35px;      
+        background-color: #3882f6;  
+        color: #f9f9f8;
+        border-radius: 5px;
+        
+        
+                
+    }
 
-}
+    .action {
+        
+        margin-top: -20px;
+        color: #f9f9f8;
+    }
+
+    h3 {
+
+        
+        color: #f9f9f8;
+    }
