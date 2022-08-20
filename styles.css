@@ -48,6 +48,7 @@
 .img2 {
     width: 150px;
     height: auto;
+    border: solid #3882f6;
     
     border-radius: 8px;
 
@@ -184,4 +185,12 @@ figcaption {
 
         
         color: #f9f9f8;
+    }
+
+    footer {
+        border: solid;
+        text-align: center;
+        background-color: #1f2937;
+        color: #e5e7eb;
+        padding: 25px;
     }
